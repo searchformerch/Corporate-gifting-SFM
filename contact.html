@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Aurum Corporate Gifts</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/site.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">A</span><span>Aurum Corporate Gifts</span></a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">Menu</button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="collections.html">Collections</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a class="nav-cta" href="contact.html" aria-current="page">Request Quote</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-layout">
+      <div>
+        <p class="eyebrow">Request a quote</p>
+        <h1>Tell us the occasion. We will shape the gift.</h1>
+        <p>For a quick estimate, include quantity, budget per gift, delivery city, and preferred date.</p>
+        <div class="contact-details">
+          <p><strong>Email</strong><a href="mailto:hello@aurumgifts.com">hello@aurumgifts.com</a></p>
+          <p><strong>Phone</strong><a href="tel:+910000000000">+91 00000 00000</a></p>
+          <p><strong>Location</strong><span>Serving corporate clients across India</span></p>
+        </div>
+      </div>
+
+      <form class="contact-form" id="quoteForm">
+        <label>
+          Name
+          <input name="name" type="text" autocomplete="name" required>
+        </label>
+        <label>
+          Work email
+          <input name="email" type="email" autocomplete="email" required>
+        </label>
+        <label>
+          Occasion
+          <select name="occasion" required>
+            <option value="">Select one</option>
+            <option>Client gifting</option>
+            <option>Employee gifting</option>
+            <option>Event gifting</option>
+            <option>Festive gifting</option>
+            <option>Custom project</option>
+          </select>
+        </label>
+        <label>
+          Quantity and budget
+          <input name="budget" type="text" placeholder="Example: 100 gifts, INR 1,500 each">
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="5" placeholder="Share timeline, city, and anything you want included."></textarea>
+        </label>
+        <button class="button primary" type="submit">Send Brief</button>
+        <p class="form-note">This opens your email app, so there is no paid form service required.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Aurum Corporate Gifts</p>
+    <p>Built to run with no paid website plugins.</p>
+  </footer>
+</body>
+</html>
